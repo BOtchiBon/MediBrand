@@ -8,15 +8,15 @@ const HeroSection = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
-            <h1 className="heading-xl text-soft-blue-500">
-              Boostez votre <span className="text-medical-teal-500">visibilité</span>
+            <h1 className="heading-xl text-medical-teal-500">
+              Nous aidons les professionnels de santé à atteindre leurs objectifs de carrière.
             </h1>
             <p className="text-xl md:text-2xl text-foreground/80 max-w-lg">
-              Nous aidons les professionnels de santé à atteindre leurs objectifs de carrière.
+              Votre expertise médicale mérite une présence en ligne à sa hauteur !
             </p>
             <div className="pt-4">
               <Button size="lg" className="btn-primary text-lg">
-                Je veux un site Web fiable
+                Atteignez vos objectifs
               </Button>
             </div>
             <div className="flex items-center gap-4 pt-6">
