@@ -20,7 +20,7 @@ const Navbar = () => {
     <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'}`}>
       <div className="container mx-auto px-4 flex items-center justify-between">
         <div className="flex items-center">
-          <span className="text-2xl font-heading font-bold text-soft-blue-500">Medi<span className="text-medical-teal-500">Boost</span></span>
+          <span className="text-2xl font-heading font-bold text-soft-blue-500">Medi<span className="text-medical-teal-500">Brand</span></span>
         </div>
 
         {/* Desktop Navigation */}

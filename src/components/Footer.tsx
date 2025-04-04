@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
@@ -10,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Medi<span className="text-medical-teal-400">Boost</span></h3>
+            <h3 className="text-2xl font-bold mb-4">Medi<span className="text-medical-teal-400">Brand</span></h3>
             <p className="text-white/80 mb-4">
               Solutions digitales sur mesure pour les professionnels de santé.
             </p>
@@ -114,7 +113,7 @@ const Footer = () => {
         <hr className="border-white/20 mb-6" />
         
         <div className="text-center text-white/60 text-sm">
-          <p>&copy; {currentYear} MediBoost. Tous droits réservés.</p>
+          <p>&copy; {currentYear} MediBrand. Tous droits réservés.</p>
         </div>
       </div>
     </footer>
