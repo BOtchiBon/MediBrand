@@ -88,7 +88,9 @@ const ServicesSection = () => {
 
         <div className="mt-12 text-center">
           <a 
-            href="#contact" 
+            href="https://tally.so/r/wbvGRE" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block btn-primary"
           >
             Devis Gratuit

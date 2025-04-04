@@ -16,9 +16,12 @@ const CTASection = () => {
         <Button 
           size="lg" 
           className="bg-white text-medical-teal-500 hover:bg-white/90 hover:text-medical-teal-500/90 font-medium text-lg px-8 py-6"
+          asChild
         >
-          <Calendar className="mr-2" size={20} />
-          Planifiez une consultation gratuite
+          <a href="https://tally.so/r/wbvGRE" target="_blank" rel="noopener noreferrer">
+            <Calendar className="mr-2" size={20} />
+            Planifiez une consultation gratuite
+          </a>
         </Button>
       </div>
     </section>

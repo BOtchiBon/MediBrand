@@ -20,7 +20,9 @@ const EbookSection = () => {
       return;
     }
     
-    // Normally would send this to an API
+    // Redirect to the Tally form
+    window.open('https://tally.so/r/wbvGRE', '_blank');
+    
     toast({
       title: "Merci !",
       description: "L'ebook a été envoyé à votre adresse email.",
@@ -60,7 +62,7 @@ const EbookSection = () => {
               </form>
               
               <p className="text-xs text-foreground/60">
-                En soumettant ce formulaire, vous acceptez de recevoir des emails de MediBoost. 
+                En soumettant ce formulaire, vous acceptez de recevoir des emails de MediBrand. 
                 Vous pourrez vous désabonner à tout moment.
               </p>
             </div>

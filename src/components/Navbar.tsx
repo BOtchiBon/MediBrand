@@ -30,7 +30,7 @@ const Navbar = () => {
           <a href="#pricing" className="text-foreground hover:text-medical-teal-500 transition-colors">Tarifs</a>
           <a href="#faq" className="text-foreground hover:text-medical-teal-500 transition-colors">FAQ</a>
           <Button asChild variant="default" className="ml-4 bg-medical-teal-500 hover:bg-medical-teal-400">
-            <a href="#contact">Contactez-nous</a>
+            <a href="https://tally.so/r/wbvGRE" target="_blank" rel="noopener noreferrer">Contactez-nous</a>
           </Button>
         </nav>
 
@@ -49,7 +49,7 @@ const Navbar = () => {
             <a href="#pricing" className="text-foreground hover:text-medical-teal-500 transition-colors" onClick={() => setIsOpen(false)}>Tarifs</a>
             <a href="#faq" className="text-foreground hover:text-medical-teal-500 transition-colors" onClick={() => setIsOpen(false)}>FAQ</a>
             <Button asChild variant="default" className="bg-medical-teal-500 hover:bg-medical-teal-400">
-              <a href="#contact" onClick={() => setIsOpen(false)}>Contactez-nous</a>
+              <a href="https://tally.so/r/wbvGRE" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>Contactez-nous</a>
             </Button>
           </nav>
         </div>

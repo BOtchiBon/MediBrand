@@ -82,6 +82,9 @@ const PricingSection = () => {
     toast.success(`Vous avez sélectionné le forfait ${plan}`, {
       description: "Notre équipe vous contactera sous peu pour plus de détails.",
     });
+    
+    // Open Tally form in a new tab
+    window.open('https://tally.so/r/wbvGRE', '_blank');
   };
 
   return (

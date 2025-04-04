@@ -15,8 +15,10 @@ const HeroSection = () => {
               Votre expertise médicale mérite une présence en ligne à sa hauteur !
             </p>
             <div className="pt-4">
-              <Button size="lg" className="btn-primary text-lg">
-                Atteignez vos objectifs
+              <Button size="lg" className="btn-primary text-lg" asChild>
+                <a href="https://tally.so/r/wbvGRE" target="_blank" rel="noopener noreferrer">
+                  Atteignez vos objectifs
+                </a>
               </Button>
             </div>
             <div className="flex items-center gap-4 pt-6">
