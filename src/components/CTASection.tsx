@@ -1,9 +1,22 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Calendar } from "lucide-react";
 
 const CTASection = () => {
+  useEffect(() => {
+    // Load Calendly script
+    const script = document.createElement('script');
+    script.src = "https://assets.calendly.com/assets/external/widget.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      // Clean up script when component unmounts
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <section id="contact" className="py-20 bg-gradient-to-br from-soft-blue-400 to-medical-teal-500 text-white">
       <div className="container mx-auto px-4 text-center">
@@ -15,7 +28,7 @@ const CTASection = () => {
         </p>
         <Button 
           size="lg" 
-          className="bg-white text-medical-teal-500 hover:bg-white/90 hover:text-medical-teal-500/90 font-medium text-lg px-8 py-6"
+          className="bg-white text-medical-teal-500 hover:bg-white/90 hover:text-medical-teal-500/90 font-medium text-lg px-8 py-6 mb-12"
           asChild
         >
           <a href="https://tally.so/r/wbvGRE" target="_blank" rel="noopener noreferrer">
@@ -23,6 +36,14 @@ const CTASection = () => {
             Planifiez une consultation gratuite
           </a>
         </Button>
+        
+        <div className="bg-white rounded-lg shadow-xl overflow-hidden max-w-4xl mx-auto">
+          <div 
+            className="calendly-inline-widget" 
+            data-url="https://calendly.com/mohamedaminnouar/pret-a-ameliorer-votre-presence-digitale?hide_event_type_details=1" 
+            style={{ minWidth: '320px', height: '700px' }}
+          ></div>
+        </div>
       </div>
     </section>
   );
