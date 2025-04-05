@@ -98,7 +98,7 @@ const PricingSection = () => {
         </div>
 
         <div className="bg-medical-teal-400/20 text-medical-teal-500 font-medium text-center py-3 px-4 rounded-lg mb-10 max-w-3xl mx-auto">
-          🎉 Offre Spéciale Aïd – 3000dt -50%, Tout pour seulement 1500dt
+          🎉 Offre Spéciale – 3000dt -75%, Tout pour seulement 750dt
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">

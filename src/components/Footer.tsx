@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
@@ -96,15 +97,15 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <MapPin size={20} className="flex-shrink-0 mt-1" />
-                <span className="text-white/80">123 Rue de la Santé, 75000 Paris, France</span>
+                <span className="text-white/80">Bouhsina, Sousse, Tunisia</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={20} />
-                <span className="text-white/80">+33 1 23 45 67 89</span>
+                <span className="text-white/80">+216 92 007 031</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={20} />
-                <span className="text-white/80">contact@mediboost.fr</span>
+                <span className="text-white/80">nour@medibrand.pro</span>
               </li>
             </ul>
           </div>

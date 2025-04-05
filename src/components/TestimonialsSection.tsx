@@ -12,38 +12,38 @@ import { Star } from 'lucide-react';
 
 const testimonialsData = [
   {
+    name: "Nouha Sghaier",
+    title: "CEO, HPCS",
+    content: "Merci beaucoup pour ce travail incroyable ! Honnêtement, je n'ai même pas expliqué ce que je voulais, mais vous avez quand même réussi à me livrer exactement ce que j'avais en tête – encore mieux que ce que j'imaginais 😍. J'apprécie vraiment votre créativité, votre patience et votre souci du détail. Le site web est professionnel, fluide et esthétique.",
+    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    rating: 5
+  },
+  {
+    name: "Ahmed Yassine",
+    title: "CEO, Truggl",
+    content: "Nous avons travaillé avec Amin et ce fut une expérience formidable ! Amin est responsable et très réactif à toutes nos modifications et révisions tout au long du projet. Nous sommes satisfaits du résultat et le recommandons vivement comme excellent designer UI/UX ou graphiste !",
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    rating: 5
+  },
+  {
+    name: "Dr. Hatem Jouini",
+    title: "Radiologist",
+    content: "Grâce à MediBrand, mes patients peuvent désormais prendre rendez-vous en ligne et accéder à des informations claires sur les examens. Un vrai gain de temps pour mon équipe.",
+    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    rating: 5
+  },
+  {
     name: "Giana Kenter",
     title: "Founder, Mobile Dynamics Startup",
-    content: "MediBoost a transformé notre présence en ligne. Notre nouveau site web a permis d'augmenter le nombre de rendez-vous de 40% en seulement deux mois.",
+    content: "MediBrand a transformé notre présence en ligne. Notre nouveau site web a permis d'augmenter le nombre de rendez-vous de 40% en seulement deux mois.",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     rating: 5
   },
   {
     name: "Sienna Hewitt",
     title: "CEO, Tech Innovations",
-    content: "L'équipe de MediBoost comprend parfaitement les enjeux du secteur médical. Leur expertise en matière de contenu médical est sans égale.",
+    content: "L'équipe de MediBrand comprend parfaitement les enjeux du secteur médical. Leur expertise en matière de contenu médical est sans égale.",
     avatar: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    rating: 5
-  },
-  {
-    name: "Dr. Hatem Jouini",
-    title: "Radiologist",
-    content: "Grâce à MediBoost, mes patients peuvent désormais prendre rendez-vous en ligne et accéder à des informations claires sur les examens. Un vrai gain de temps pour mon équipe.",
-    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    rating: 5
-  },
-  {
-    name: "Ahmed Yassine",
-    title: "CEO, Truggl",
-    content: "Le processus de création a été fluide et professionnel. MediBoost a su répondre à toutes nos attentes et même anticiper certains besoins.",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
-    rating: 4
-  },
-  {
-    name: "Nouha Sghaier",
-    title: "CEO, HPCS",
-    content: "L'impact sur notre visibilité locale a été immédiat. Nous sommes maintenant parmi les premiers résultats de recherche dans notre région.",
-    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     rating: 5
   }
 ];
