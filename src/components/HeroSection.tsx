@@ -36,7 +36,7 @@ const HeroSection = () => {
             <div className="absolute -inset-0.5 bg-gradient-to-br from-soft-blue-300 to-medical-teal-400 rounded-2xl blur opacity-30"></div>
             <div className="relative bg-white rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
+                src="/lovable-uploads/9117fdd6-65f2-4c0e-89a3-d5a8c16de4bf.png"
                 alt="Doctor browsing a medical website"
                 className="w-full h-auto object-cover"
               />

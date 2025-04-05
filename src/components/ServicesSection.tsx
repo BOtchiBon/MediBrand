@@ -60,7 +60,7 @@ const ServicesSection = () => {
         "Identification des besoins",
         "Stratégie personnalisée"
       ],
-      image: "https://images.unsplash.com/photo-1583912683946-36ef5f0d605d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
+      image: "/lovable-uploads/aa9d0454-7bf6-429a-975d-86bba95c656c.png"
     }
   ];
 
