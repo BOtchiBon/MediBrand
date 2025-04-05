@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import { 
   Carousel,
   CarouselContent,
@@ -9,20 +9,21 @@ import {
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import { Star } from 'lucide-react';
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const testimonialsData = [
   {
     name: "Nouha Sghaier",
     title: "CEO, HPCS",
     content: "Merci beaucoup pour ce travail incroyable ! Honnêtement, je n'ai même pas expliqué ce que je voulais, mais vous avez quand même réussi à me livrer exactement ce que j'avais en tête – encore mieux que ce que j'imaginais 😍. J'apprécie vraiment votre créativité, votre patience et votre souci du détail. Le site web est professionnel, fluide et esthétique.",
-    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    avatar: "/lovable-uploads/e57d7cea-9a9c-48c8-abad-5228fae37f84.png",
     rating: 5
   },
   {
     name: "Ahmed Yassine",
     title: "CEO, Truggl",
     content: "Nous avons travaillé avec Amin et ce fut une expérience formidable ! Amin est responsable et très réactif à toutes nos modifications et révisions tout au long du projet. Nous sommes satisfaits du résultat et le recommandons vivement comme excellent designer UI/UX ou graphiste !",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    avatar: "/lovable-uploads/aec5b4c3-e2fc-4820-8dde-4d45c58e2d9d.png",
     rating: 5
   },
   {
@@ -63,11 +64,14 @@ const TestimonialCard = ({ testimonial }: { testimonial: typeof testimonialsData
         </div>
         <p className="text-foreground/80 italic mb-6">"{testimonial.content}"</p>
         <div className="flex items-center gap-4">
-          <img 
-            src={testimonial.avatar} 
-            alt={testimonial.name} 
-            className="w-12 h-12 rounded-full object-cover" 
-          />
+          <Avatar className="w-12 h-12 border">
+            <AvatarImage 
+              src={testimonial.avatar} 
+              alt={testimonial.name}
+              className="object-cover" 
+            />
+            <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
+          </Avatar>
           <div>
             <h4 className="font-medium">{testimonial.name}</h4>
             <p className="text-sm text-foreground/60">{testimonial.title}</p>
